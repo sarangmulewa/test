@@ -1,0 +1,195 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body {
+    background: #fff;
+}
+
+body, input, select, textarea {
+    color: #888;
+    font-family: "Lato", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
+/*   HEADER   */
+
+#header {
+    display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+	justify-content: space-between;
+	background: #2E3449;
+	color: aliceblue;
+	height: 100%;
+	overflow-y: auto;
+	position: fixed;
+	text-align: left;
+    top: 0;
+	width: 11em;
+    left: 0;
+}
+
+#header h1,#header h2,#header h3,#header h4,#header h5,#header h6 {
+    color: aliceblue;
+}
+
+#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
+    color: aliceblue;
+}
+
+#header header p {
+	color: aliceblue;
+}
+
+#header a {
+	color: #fff ;
+    font-size:  12pt;
+}
+
+#header a:hover {
+    color: #ffffff !important;
+}
+
+#header > header {
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 13pt;
+}
+
+#header > nav {
+	-moz-flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+    background: #344A67;
+}
+
+#header > nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header > nav ul li {
+    border-top: solid 2px #344A67;
+	display: block;
+    padding: 0;
+}
+
+#header > nav ul li a {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+    border: 0;
+	color: #ADC0BB !important;
+	display: block;
+    padding: 0.85em 5px;
+    text-decoration: none;
+}
+
+#header > nav ul li a#active {
+    background: #3A8BA0;
+    color: #fff !important;
+}
+
+#header > nav ul li:first-child {
+    border-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+		/* Basic */
+
+			html, body {
+				min-width: 320px;
+			}
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 8pt;
+			}
+
+			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+				display: none;
+			}
+
+			h2 {
+				font-size: 1.75em;
+			}
+
+			h3 {
+				font-size: 1.5em;
+			}
+
+			h4 {
+				font-size: 1em;
+			}
+		/* Header */
+
+#header {
+    width: 17em;
+    -moz-transform: translateX(17em);
+    -webkit-transform: translateX(17em);
+    -ms-transform: translateX(17em);
+    transform: translateX(17em);
+    left: 0;
+}
+
+   
